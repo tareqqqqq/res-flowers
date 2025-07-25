@@ -294,9 +294,9 @@ header nav ul li a {
    justify-content: center;
    align-items: center;
     height: 100vh;
-   background-size: 100%;
+  background-position: center;
     margin: 0px auto;
-    background-position: center;
+   background-size: 100% 50%;
     
 }
 .input h1 {
@@ -418,13 +418,9 @@ header nav ul li a {
     flex-direction: column;
 }
 
-.badge-img-one{
-    
-   max-width: ;
 
 
 
-}
   }
 
 
