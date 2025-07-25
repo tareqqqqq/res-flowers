@@ -419,11 +419,12 @@ header nav ul li a {
 }
 
 .badge-img-one{
-    height: auto;
-    width: auto;
+    
+   max-width: ;
+
 
 
 }
   }
 
-  
+
