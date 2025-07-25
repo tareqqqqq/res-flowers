@@ -139,7 +139,7 @@ header nav ul li a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-
+    
 }
 
 .card-img {
@@ -295,8 +295,9 @@ header nav ul li a {
    align-items: center;
     height: 100vh;
   background-position: center;
-    margin: 0px auto;
-   background-size: 100% 50%;
+   margin: auto;
+   background-size: 100% 60%;
+   
     
 }
 .input h1 {
@@ -308,7 +309,7 @@ header nav ul li a {
 }
 
 .write-email {
-    padding: 20px;
+    padding: 20px 140px;
 }
 
 .btn-primary {
@@ -419,7 +420,9 @@ header nav ul li a {
 }
 
 
-
+.badge-img-one{
+    width: 100%;
+}
 
   }
 
