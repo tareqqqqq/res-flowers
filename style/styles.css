@@ -186,6 +186,7 @@ header nav ul li a {
 .badge {
     display: flex;
     margin-top: 120px;
+    
 }
 
 .badge-imgs {
@@ -394,7 +395,7 @@ header nav ul li a {
 
 .badge,
 .latest-imgs,
-.zabo-container
+.zabo-container,
 .footerbar {
     flex-direction: column;
 }
@@ -417,5 +418,12 @@ header nav ul li a {
     flex-direction: column;
 }
 
+.badge-img-one{
+    height: auto;
+    width: auto;
+
 
 }
+  }
+
+  
