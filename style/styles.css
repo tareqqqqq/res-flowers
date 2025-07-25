@@ -1,0 +1,421 @@
+
+/* shared styles  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* navbar styles  */
+
+header {}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.menu-items {
+    display: flex;
+
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.shop,
+.about {
+    color: rgb(137, 135, 161);
+    font-family: ('Inter');
+    font-size: 16px;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.cart {
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home {
+    color: rgb(37, 36, 50);
+
+    font-size: 16px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+   /* section- start  */
+
+.fresh-flowers {
+    display: flex;
+    align-items: end;
+    
+    margin-top: 200px;
+}
+
+
+
+.h{
+    font-size: 65px;
+    font-weight: 700;
+
+    color: rgb(0, 0, 0);
+}
+
+.f {
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.fresh-flowers p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.fresh-img {
+    
+    height: 100%;
+}
+
+/* card titles styles  */
+
+.our-plants {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.our {
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.plants {
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.indulge {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: ('Inter');
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* card related styles  */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.card-img {
+    margin-bottom: -20px;
+    width: 100%;
+}
+
+
+.lily {
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-family: ('Inter');
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: -20px;
+
+
+}
+
+.usd {
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-family: ('Inter');
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+
+.btn {
+
+    background: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-family: ('Inter');
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 15px 80px;
+
+
+}
+
+/* badge styles */
+.badge {
+    display: flex;
+    margin-top: 120px;
+}
+
+.badge-imgs {
+    margin-right: 100px;
+    position: relative;
+}
+
+.badge-img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -100px;
+    left: 410px;
+
+}
+
+
+
+
+
+.list-h {
+    color: rgb(0, 0, 0);
+
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.list-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: ('Inter');
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* styles latest  */
+
+.latest-imgs {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.zabo-plant {
+    position: relative;
+}
+
+.zabo-plant img {
+    border-radius: 20px;
+    filter: brightness(60%);
+
+}
+
+.one {
+    margin-top: 25px;
+}
+
+.zabo-plant h3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.zabo-plant h4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.zabo-plant a {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.latest-img-two, .latest-img-one{
+   width: 100%;
+}
+
+
+
+/* input container styles  */
+.input-container{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    max-width:1440px ;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+   background-size: 100%;
+    margin: 0px auto;
+    background-position: center;
+    
+}
+.input h1 {
+    color: rgb(255, 255, 255);
+
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+
+.write-email {
+    padding: 20px;
+}
+
+.btn-primary {
+    background: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-family: ('Inter');
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 40px;
+    margin-left: -5px;
+
+}
+ /* footer related styles  */
+
+ /* footer styles */
+
+.footer-home {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+
+}
+
+.footer-home a {
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+    font-family: ('Inter');
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-frist {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: ('Inter');
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 300px;
+
+}
+
+.footerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+    margin-bottom: 50px;
+}
+
+
+  /* responsive  */
+  @media (max-width:576px) {
+
+    .about,
+    .home,
+    .shop,
+    .badge-img {
+        display: none;
+    }
+       /* fresh floewrs  */
+    .h, .f, .our, .plants,.list-h, .input h1{
+        font-size: 25px;
+    }
+    .fresh-flowers{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .list-h,.list-text{
+        text-align: center;
+    }
+
+    .fresh-flowers p, .indulge,.list-text {
+        font-size: 15px;
+    }
+    /* card styles  */
+    .cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* badges related styles  */
+
+.badge,
+.latest-imgs,
+.zabo-container
+.footerbar {
+    flex-direction: column;
+}
+
+.latest-img-three, .input-container{
+    max-width: 100%;
+}
+.zabo-plant h3{
+    font-size: 25px;
+}
+
+.write-email{
+    padding: 15px;
+}
+.btn-primary{
+    padding: 15px 25px;
+}
+
+.footerbar {
+    flex-direction: column;
+}
+
+
+}
